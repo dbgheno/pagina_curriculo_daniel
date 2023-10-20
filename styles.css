@@ -1,0 +1,145 @@
+/* RESET E PRÉ DEFINIÇÕES*/
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-decoration: none; /* remove qualquer sublinhado e outros enfeites de texto automáticos */
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none; 
+}
+
+a{color:inherit} /* o valor inherit declara as mesmas pré configurações do elemento pai. */
+
+
+/* HEADER À ESQUERDA */
+header {
+    /* posicionamento */
+    float: left;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    /* texto e fundo */
+    text-align: center;
+    background-color: rgb(139, 145, 238);
+    color: rgb(220, 220, 220);
+    font-size: 2vw;
+}
+
+#foto {
+    /* tamanho relativo ao header */
+    width: 60%;
+    /* formatado redondo */
+    border-radius: 50%;
+    border: solid rgb(107, 107, 107) 0.4rem;
+    /* posicionamento dentro do header */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+header nav {
+    /* posicionamento */
+    position: absolute;
+    transform: translate(-50%, 20%);
+    top: 50%;
+    left: 50%;
+}
+
+.navs {
+    display: block; /* para que os links não fiquem lado a lado */
+    margin: 0.5rem; /* leve espaçamento entre eles */
+}
+
+
+/* MAIN DAS 3 PÁGINAS */
+main {
+    /* posicionamento */
+    float: left;
+    clear: both;
+    width: 72%;
+    position: absolute;
+    left: 27.5%;
+    top: 5%;
+    color: rgb(107, 107, 107);
+}
+
+
+/* SOBRE */
+.sobre{transform: translateY(70%);} /* ajuste do posicionamento do primeiro main */
+
+h1 {
+    font-size: 4rem; 
+    color: rgb(102, 102, 102);
+}
+
+#sobrenome {color: rgb(127, 134, 236);}
+
+#endereco{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-stretch: condensed; /* meu endereço era muito comprido então condensei as letras */
+    margin: 0 0.3rem;
+}
+
+#email,#telefone {
+    font-weight: bolder;
+    letter-spacing: 0.05rem; /* aqui apliei o espaço entre as letras */
+    display: inline; /* removi a quebra de linha automática */
+    margin: 0 1.2rem;
+}
+
+#descricao {
+    margin: 2rem 4rem 1.65rem 0.3rem;
+    font-size: 1.1rem;
+}
+
+.redesImg {
+    height: 50px;
+    width: 50px;
+    filter: grayscale(100%); /* para deixar todas acinzentadas */
+    border-radius: 50%; /* formato redondo */
+    border: solid rgb(107, 107, 107) 0.4px;
+    margin: 0.85rem;
+}
+
+
+/* CONHECIMENTOS E OBJETIVOS */
+li {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-weight: bolder;
+}
+
+.sublista {
+    transform: scale(0.85); /* reduzi em 85% o tamanho ta fonte relativo aos itens da lista principal */
+    margin: -0.8rem -4rem; /* ajuste das margens devido a redução em 85% */
+}
+
+.toplist{
+    color:rgb(127, 134, 236);
+    text-decoration: underline; /* sublinhado */
+}
+
+#livro {text-decoration: underline;} /* sublinhado */
+
+#objetivos{
+    padding: 2rem 2rem 0 0;
+    line-height: 1.8; /* aumentei o espaço vertical de cada linha */
+}
+
+.textosintercalados{color:rgb(115, 122, 214);}
+
+
+/* HOVERS */
+a:hover{
+    text-shadow: 0 0 10px rgb(255, 255, 255, 0.5); /* efeito de brilho branco com 50% de opacidade no menu do header */
+    transform:scale(1.1); /* pequeno aumento do item selecionado */
+}
+
+a img:hover{
+    transform:scale(1.2); /* aumento das bolinhas */
+    box-shadow: 0 0 15px 4px rgba(99, 99, 99, 0.5) /* efeito de brilho */
+}
+
+#livro:hover{text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);} /* efeito de brilho */

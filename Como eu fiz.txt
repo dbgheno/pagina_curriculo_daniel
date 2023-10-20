@@ -1,0 +1,27 @@
+
+HTMLs
+	criei pasta
+	arrastei pasta para dentro do VSCode
+	criei os 3 htmls com os nomes indicados nos slides e o CSS
+	fiz o index.html na ordem
+		criei pasta "images", baixei logos e minha foto
+	copiei todo conteúdo do html.index para os demais htmls
+	estilizei as palavras do header diretamente em cada html (css inline + tag <strong>
+	editei conhecimentos.html construíndo uma lista ordenada por letras
+	editei objetivos.html construíndo uma lista não ordenada
+
+CSS
+	Fiz como fui comentando no próprio CSS.
+	diversas vezes tive que voltar nos htmls, rever e alterar uma que outra tag ou class para conseguir o resultado que desejava
+
+
+FAVICON	
+	criei um favicon através do site favicon.cc
+	o colei na pasta images do trabalho
+	linkei o favicon digitando link:favicon gerando a linha de favicon dentro do head do html index, na linha 9 e depois de configurá-los copiei para os demais htmls
+
+
+
+
+
+
