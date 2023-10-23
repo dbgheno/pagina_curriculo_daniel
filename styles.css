@@ -126,10 +126,8 @@ li {
 #objetivos{
     padding: 2rem 2rem 0 0;
     line-height: 1.8; /* aumentei o espaço vertical de cada linha */
+    text-align: center;
 }
-
-.textosintercalados{color:rgb(115, 122, 214);}
-
 
 /* HOVERS */
 a:hover{
