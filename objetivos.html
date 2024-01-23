@@ -5,31 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Gheno</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="shortcut icon" href="./images/dfavicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <header>
-        <img id="foto" src="./images/minhafoto.jpg" alt="Foto do Daniel" title="Daniel">
-        <nav>
-            <a class="navs" href="./index.html">Sobre</a>
-            <a class="navs" href="./conhecimentos.html">Conhecimentos</a>
-            <a class="navs" href="./objetivos.html" style="color: white;""><strong>Objetivos</strong></a>
-        </nav>
-    </header>
+<style>
+    * {
+        overflow: hidden;
+    }
+</style>
 
-    <main>
-        <ul id="objetivos">
-            <li class="toplist">OBTER SUCESSO NO RAMO DE DESENVOLVIMENTO DE SOFTWARE</li><br>
-            <li>Ampliar meu conhecimento em programação;</li><br>
-            <li>Direcionar minhas múltiplas habilidades para o desenvolvimento de softwares;</li><br>
-            <li>Prosseguir me aprimorando em Excel, análise gráfica e estatística;</li><br>
-            <li>Concluir com extremo êxito minha formação Full Stack na Growdev (término em setembro de 2024).</li>
-        </ul>
-    </main>
+<body class="container-fluid mb-0 p-0 text-secondary">
+    <div class="row">
+        <header class="text-center col-3 bg-secondary vh-100 me-4">
+            <div class="row h-25"></div>
+            <img class="rounded-circle w-75 border border-5 border-dark mb-3" src="./images/minhafoto.jpg"
+                alt="Foto do Daniel" title="Daniel">
+            <nav class="d-flex flex-column align-items-center">
+                <a class="text-light text-decoration-none" href="./index.html">Sobre</a>
+                <a class="text-light text-decoration-none" href="./conhecimentos.html">Conhecimentos</a>
+                <a class="text-light text-decoration-none fs-4" href="./objetivos.html"><strong>Objetivos</strong></a>
+            </nav>
+        </header>
+        <div class="col-8">
+            <div class="row h-25"></div>
+
+            <main class="row">
+                <ul>
+                    <li class="text-dark"><strong>OBTER SUCESSO NO RAMO DE DESENVOLVIMENTO DE SOFTWARE</strong></li><br>
+                    <li>Ampliar meu conhecimento em programação;</li><br>
+                    <li>Direcionar minhas múltiplas habilidades para o desenvolvimento de softwares;</li><br>
+                    <li>Prosseguir me aprimorando em Excel, análise gráfica e estatística;</li><br>
+                    <li>Concluir com extremo êxito minha formação Full Stack na Growdev (término em setembro de 2024).
+                    </li>
+                </ul>
+            </main>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-
